@@ -1,0 +1,70 @@
+ /* Subscribe.css */
+
+.newsletter {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .container-n {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .newsletter__wrapper {
+    max-width: 800px;
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .newsletter__content {
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #e60023;
+    margin: 0 0 10px;
+  }
+  
+  .newsletter__content h2 {
+    font-size: 2rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  .highlight {
+    color: #e60023;
+  }
+  
+  .newsletter__form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .newsletter__form input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 1;
+  }
+  
+  .subscribe__btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e60023;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscribe__btn:hover {
+    background-color: #d5001c;
+  }
+  

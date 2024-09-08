@@ -1,0 +1,99 @@
+ /* Section.css */
+
+section {
+  padding: 60px 0;
+  background-color: #fff; /* Clean white background */
+}
+
+.containers {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.header_img {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.img_1, .img_2 {
+  flex: 1;
+  min-width: 300px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.img_1 img, .img_2 img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.img_desc {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.img_desc:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* Darker on hover */
+}
+
+.sec_text {
+  text-align: center;
+}
+
+.sec_title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.sec_text p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.sec_btn {
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: #e60023;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sec_btn:hover {
+  background-color: #d5001c; /* Darker red on hover */
+}
+
+@media (max-width: 768px) {
+  .header_img {
+    flex-direction: column;
+  }
+
+  .img_1, .img_2 {
+    min-width: 100%;
+    margin-bottom: 20px;
+  }
+}
